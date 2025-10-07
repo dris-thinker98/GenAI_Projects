@@ -125,43 +125,7 @@ The research agent is built as follows:
 
 ---
 
-## Proposed README.md Structure (Sample)
 
-```markdown
-# Agentic AI Research Agent
-
-## What is Agentic AI?
-
-Agentic AI refers to systems built on large language models that act autonomously: they plan, reason, use tools, maintain memory, and execute multistep workflows rather than just answering single prompts.
-
-## Capabilities
-
-- Task decomposition and planning  
-- Dynamic decision making and branching  
-- Memory and state across steps  
-- Integration of external tools / APIs  
-- Adaptive execution and fallback strategies  
-- Coordination across modules or multiple agents  
-
-## Project: Multistep Research Agent
-
-This project demonstrates how to build a research assistant agent using **LangChain** + **LangGraph**. The agent:
-
-1. Takes a user query  
-2. Searches the web via SerpAPI  
-3. Summarizes results using an LLM  
-4. Stores the summary in memory  
-5. Returns a final summarized response  
-
-### Architecture & Flow
-
-- **State Schema**: defines keys like `query`, `search_results`, `summary`, etc.  
-- **Tools**: web search, summarization, store, respond  
-- **Handlers / Nodes**: functions for each step  
-- **Graph Workflow**: `ask → search → summarize → store → respond`  
-- **Run**: invoke the graph on an initial (empty) state  
-
-### Setup & Usage
 
 1. Install dependencies:  
    ```bash
