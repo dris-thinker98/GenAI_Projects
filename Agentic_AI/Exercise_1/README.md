@@ -124,5 +124,6 @@ The research agent is built as follows:
 - Customer support agents that perform multi-step resolution  
 
 ---
-
+**Additional Links for the Project:**
+https://www.codecademy.com/article/agentic-ai-with-langchain-langgraph?authuser=0
 
