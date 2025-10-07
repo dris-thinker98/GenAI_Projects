@@ -126,8 +126,3 @@ The research agent is built as follows:
 ---
 
 
-
-1. Install dependencies:  
-   ```bash
-   pip install langchain langgraph langchain_ollama langchain-community
-
